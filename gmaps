@@ -1,0 +1,40 @@
+
+<div class="col-xl-12 col-lg-7">
+          <style>
+            .google-maps {
+                position: relative;
+                padding-bottom: 85%; // This is the aspect ratio
+                height: 0;
+                overflow: hidden;
+            }
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 85% !important;
+                height: 85% !important;
+            }
+        </style>
+        
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1Io7EkRo3ZZDhAy0squx0srEqplcu_24C&hl=bn" width="600" height="100" frameborder="0" style="border:0"></iframe>
+        </div><div class="col-xl-12 col-lg-7">
+          <style>
+            .google-maps {
+                position: relative;
+                padding-bottom: 85%; // This is the aspect ratio
+                height: 0;
+                overflow: hidden;
+            }
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 85% !important;
+                height: 85% !important;
+            }
+        </style>
+        
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1Io7EkRo3ZZDhAy0squx0srEqplcu_24C&hl=bn" width="600" height="100" frameborder="0" style="border:0"></iframe>
+        </div>
