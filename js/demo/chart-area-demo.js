@@ -173,7 +173,7 @@ var myLineChart = new Chart(ctx, {
       data: [3,3,3,3,3,3, 5, 8, 10, 14, 17, 20, 25, 27,33, Activecases, Activecases + 5 ],
     },
     {
-      data:[0,0,0,0,0,0,0,0,1,1,2,2,2,3,3,4],
+      data:[0,0,0,0,0,0,0,1,1,2,2,2,3,3,4,5],
       label: "Deaths ",
       lineTension: 0.2,
       backgroundColor: "rgba(255, 99, 71, 0.5)",
