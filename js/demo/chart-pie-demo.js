@@ -7,7 +7,7 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Total Quarantine in Progress", "Quarantine Completed ", "Community Spread"],
+    labels: ["Quarantine in Progress", "Quarantine Completed ", "Community Spread"],
     datasets: [{
       data: [37038, 9858, 0],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
