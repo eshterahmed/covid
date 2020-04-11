@@ -9,7 +9,7 @@ var myPieChart = new Chart(ctx, {
   data: {
     labels: ["Quarantine in Progress", "Quarantine Completed ", "Community Spread"],
     datasets: [{
-      data: [72284, 596811, 20],
+      data: [72284, 59681, 20],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
