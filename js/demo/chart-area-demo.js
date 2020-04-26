@@ -149,7 +149,7 @@ p15 = p15.format("l");
 var now = moment();
 now = now.format("l");
 
-var Activecases = 4998;
+var Activecases = 5416;
 
 var ctx = document.getElementById("myAreaChart");
 
@@ -170,10 +170,10 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgb(179, 0, 0)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [424,482,621,803,1012,1231,1572,1838,2144,2456,2948,3382,3772,4187,4689,Activecases, Activecases + 10],
+      data: [482,621,803,1012,1231,1572,1838,2144,2456,2948,3382,3772,4187,4689,4998,Activecases, Activecases + 10],
     },
     {
-      data:[27,30,34,39,46,50,60,75,84,91,101,110,120,127,131,140],
+      data:[30,34,39,46,50,60,75,84,91,101,110,120,127,131,140,145],
       label: "Deaths ",
       lineTension: 0.2,
       backgroundColor: "rgba(255, 99, 71, 0.5)",
