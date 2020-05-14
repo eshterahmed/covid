@@ -149,7 +149,7 @@ p15 = p15.format("l");
 var now = moment();
 now = now.format("l");
 
-var Activecases = 18863;
+var Activecases = 18823;
 
 var ctx = document.getElementById("myAreaChart");
 
